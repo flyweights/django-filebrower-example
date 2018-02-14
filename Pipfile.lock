@@ -1,0 +1,95 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "abede755f70d1e060df40a9a587aae7eb737be5aa732f2596da221a7082d6d10"
+        },
+        "host-environment-markers": {
+            "implementation_name": "cpython",
+            "implementation_version": "3.6.4",
+            "os_name": "posix",
+            "platform_machine": "x86_64",
+            "platform_python_implementation": "CPython",
+            "platform_release": "17.4.0",
+            "platform_system": "Darwin",
+            "platform_version": "Darwin Kernel Version 17.4.0: Sun Dec 17 09:19:54 PST 2017; root:xnu-4570.41.2~1/RELEASE_X86_64",
+            "python_full_version": "3.6.4",
+            "python_version": "3.6",
+            "sys_platform": "darwin"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.6"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.douban.com/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "django": {
+            "hashes": [],
+            "version": "==1.11.10"
+        },
+        "django-filebrowser": {
+            "hashes": [],
+            "version": "==3.9.1"
+        },
+        "django-grappelli": {
+            "hashes": [],
+            "version": "==2.10.2"
+        },
+        "pillow": {
+            "hashes": [],
+            "version": "==5.0.0"
+        },
+        "pytz": {
+            "hashes": [],
+            "version": "==2017.3"
+        },
+        "whitenoise": {
+            "hashes": [],
+            "version": "==3.3.1"
+        }
+    },
+    "develop": {
+        "astroid": {
+            "hashes": [],
+            "version": "==1.6.1"
+        },
+        "autopep8": {
+            "hashes": [],
+            "version": "==1.3.4"
+        },
+        "isort": {
+            "hashes": [],
+            "version": "==4.3.3"
+        },
+        "lazy-object-proxy": {
+            "hashes": [],
+            "version": "==1.3.1"
+        },
+        "mccabe": {
+            "hashes": [],
+            "version": "==0.6.1"
+        },
+        "pycodestyle": {
+            "hashes": [],
+            "version": "==2.3.1"
+        },
+        "pylint": {
+            "hashes": [],
+            "version": "==1.8.2"
+        },
+        "six": {
+            "hashes": [],
+            "version": "==1.11.0"
+        },
+        "wrapt": {
+            "hashes": [],
+            "version": "==1.10.11"
+        }
+    }
+}

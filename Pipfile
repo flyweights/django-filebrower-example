@@ -1,0 +1,25 @@
+[[source]]
+
+url = "https://pypi.douban.com/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+django = "<2"
+django-grappelli = "*"
+django-filebrowser = "*"
+pillow = "*"
+whitenoise = "*"
+
+
+[dev-packages]
+
+pylint = "*"
+"autopep8" = "*"
+
+
+[requires]
+
+python_version = "3.6"
