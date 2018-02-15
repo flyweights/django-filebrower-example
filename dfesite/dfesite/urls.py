@@ -17,11 +17,14 @@ from django.contrib import admin
 from filebrowser.sites import site
 from django.views.static import serve
 from django.views.generic import RedirectView
+import os
+from . import settings
 
 urlpatterns = [
     url(r'^admin/filebrowser/', include(site.urls)),
     url(r'^grappelli/', include('grappelli.urls')),
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^media(?P<path>.*)$', serve, {'document_root': "media"}),
+    url(r'^media(?P<path>.*)$', serve,
+        {'document_root': os.path.join(settings.BASE_DIR, 'media')}),
     url(r'^$', RedirectView.as_view(url='/admin/filebrowser/browse/'))
 ]
